@@ -1,5 +1,5 @@
-#This code shows Normalized QE on Cathode position
-# actually Normalized QE/grid
+#This code shows Normalized QE on Cathode Surface
+# actually Normalized QE/grid on Cathode Surface
 
 '''
 Created on August 6, 2018

@@ -13,11 +13,15 @@ Ion back bombardment on the cathode surface can sputter away NEA material from a
 * or Pycharm with Proper Packagages
 * SRIM need to be installed for specific case of QE study. For Normalized Power density Estimation, SRIM is not required.
 
+## Author
+
+ * **Jyoti Biswas**
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details<br/>
 
-## Author
+## Acknowledgments
 
- * Jyoti Biswas
+Great appreciation to **Dr. Edong Wang** for his valuable and constructive suggestions.
 

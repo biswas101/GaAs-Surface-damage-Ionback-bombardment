@@ -19,7 +19,7 @@ Ion back bombardment on the cathode surface can sputter away NEA material from a
 
 ## License
 
-This project is licensed under the ```MIT License``` - see the [LICENSE.md](LICENSE.md) file for details<br/>
+This project is licensed under the ```MIT License``` - see the [LICENSE](LICENSE) file for details<br/>
 
 ## Acknowledgments
 

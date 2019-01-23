@@ -23,10 +23,6 @@ import time
 start_time = time.time()
 from pylab import figure
 
-
-#data= genfromtxt('ionsmap_3r_vp_vzcut/ionsmap_rc_vp_20cm.txt',delimiter='',dtype=None, names=True)
-#data= genfromtxt('omer_offset_anode/ions_on_cathode_tab_6mm.txt',delimiter='',dtype=None, names=True)
-#data= genfromtxt('offset_anode_v2.0/ions_on_cathode_ao_13.txt',delimiter='',dtype=None, names=True)
 data= genfromtxt('laser_vs_anode_off/ionsmap_rc_6mm_laser_offset.txt',delimiter='',dtype=None, names=True)
 
 e0_p=938.27e6

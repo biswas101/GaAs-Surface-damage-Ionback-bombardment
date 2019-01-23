@@ -1,7 +1,7 @@
 # GaAs Surface Damage-Ionback-bombardment
 
 This code can be used to find QE decay and power density on photocathode surface.<br/>
-Ion back bombardment on the cathode surface can sputter away NEA material from acthode surface. Static Sputtering can be calculated using SRIM Monte Carlo Simulation. <br/>
+Ion back bombardment on the cathode surface can sputter away NEA material such as Cesium from acthode surface. Static Sputtering of Cesium can be calculated using SRIM Monte Carlo Simulation. <br/>
 * Find QE map on the cathode surface<br/>
   * ```qe_map_nm.py``` can be used to find the ```Normalized QE``` on the cathode surface.<br/>
   * ```qe_map_nm_2_f_2.py``` uses adaptive meshing to increase the performance of the calculation.<br/>

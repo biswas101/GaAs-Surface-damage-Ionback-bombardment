@@ -1,4 +1,4 @@
-# This code scan every grid moints in mesh
+# This code scan every grid points in mesh
 # This code also reomve the ions, once counted in a grid
 # This code Do Not use adaptive meshing
 # This code should show Normalized/raw QE on a grid

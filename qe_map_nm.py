@@ -2,7 +2,7 @@
 # This code also reomve the ions, once counted in a grid
 # This code Do Not use adaptive meshing
 # This code shows Normalized/raw QE on a grid
-# Using line 97 once can get ion density. ie, ions/grid
+# Using line 97 one can get ion density. ie, ions/grid
 
 
 '''

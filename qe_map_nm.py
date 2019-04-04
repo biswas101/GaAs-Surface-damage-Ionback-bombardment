@@ -1,7 +1,8 @@
 # This code scan every grid points in mesh
 # This code also reomve the ions, once counted in a grid
 # This code Do Not use adaptive meshing
-# This code should show Normalized/raw QE on a grid
+# This code shows Normalized/raw QE on a grid
+# Using line 97 once can get ion density. ie, ions/grid
 
 
 '''
@@ -62,7 +63,7 @@ t = SY
 print("t:", t)
 
 #---- Creating Mesh Size-------
-mesh = 0.00025
+mesh = 0.0005
 
 print("mesh size: ", mesh)
 
@@ -85,7 +86,7 @@ print("-- Code is Running; we will count till:--", len(XX)-1)
 # This function will check how many total ion points are
 # nearby to a particular Grid Point. Once a ion is positioned at
 # a certain grid, it wil not be used for later calcuation.
-# it also removes ion, onc counted in acertain grid
+# it also removes ion, once counted in a certain grid
 def func_grid_check_tp(X_grid, Y_grid):
     points = 0
     remove_array =[]
@@ -93,7 +94,8 @@ def func_grid_check_tp(X_grid, Y_grid):
 
     for k in range(len(x)):
         if abs(X_grid-x[k])<(mesh/2) and abs(Y_grid-y[k])<(mesh/2):
-            points = points + 1
+            #points = points + 1     # ions/grid
+            points = points + t[k]  # QE/grid
 
             remove_array.append(k)
 
@@ -149,5 +151,3 @@ cb.set_label('QE/grid')
 print("--- %s seconds ---" % (time.time() - start_time))
 
 plt.show()
-
-

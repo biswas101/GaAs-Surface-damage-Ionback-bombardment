@@ -117,6 +117,7 @@ rlaser= 0.0043
 
 fig,ax=plt.subplots()
 plt.pcolor(X, Y, Z, cmap='gnuplot2_r')
+#plt.imshow(Z, extent=[-15, 15, -15, 15], interpolation='None', origin='lower', cmap='gnuplot2_r')
 
 plt.xlabel('X [m]')
 plt.ylabel('Y [m]')

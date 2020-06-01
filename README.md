@@ -11,7 +11,7 @@ Ion back bombardment on the cathode surface can sputter away NEA material such a
 ## Prerequisites:
 
 * Python 3
-* or Pycharm with Proper Packagages
+* or Pycharm with Proper Packages
 * SRIM need to be installed for specific case of QE study. For Normalized Power density Estimation, SRIM is not required.
 
 ## Author

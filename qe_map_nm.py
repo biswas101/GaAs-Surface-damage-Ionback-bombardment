@@ -136,13 +136,18 @@ plt.axes()
 circle = plt.Circle((0, 0), radius=0.013, color='b',fill=False)
 plt.gca().add_patch(circle)
 
-plt.pcolor(X, Y, Z, cmap='gnuplot', clip_path=circle, clip_on=True)
+#plt.pcolor(X, Y, Z, cmap='gnuplot', clip_path=circle, clip_on=True)
 #plt.pcolor(X, Y, Z, cmap='gnuplot2', clip_path=circle, clip_on=True)
 plt.xlabel('X [m]')
 plt.ylabel('Y [m]')
 
-cb=plt.colorbar()
-cb.set_label('QE/grid')
+#cb=plt.colorbar()
+#cb.set_label('QE/grid')
+
+plt.imshow(Z, extent=[-0.015, 0.015, -0.015, 0.015], origin='lower',
+           cmap='gnuplot', clip_path=circle, clip_on=True)
+plt.colorbar()
+plt.axis(aspect='image');
 
 #plt.savefig('laser_vs_anode_off/ionsmap_rc_6mm_laser_offset_raw_qe_map_fine.png', dpi = 300)   # save the figure to file
 #plt.close(fig)
